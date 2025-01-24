@@ -17,30 +17,44 @@ This repository contains all the activities, assignments, and Jupyter notebooks 
 
 ## Repository Structure
 ```
-Data_Mining_Business_Analytics/
-├── notebooks/
-│   ├── numpy_pandas_tutorial.ipynb           # NumPy and Pandas basics
-│   ├── regression_analysis.ipynb            # Linear, Lasso, and Ridge Regression
-│   ├── exploratory_data_analysis.ipynb      # Data visualization and preparation
-│   ├── logistic_regression.ipynb            # Classification models and metrics
-│   ├── knn_analysis.ipynb                   # K-Nearest Neighbors implementation
-│   ├── decision_trees.ipynb                 # Decision trees and feature selection
-│   ├── random_forest_ensemble.ipynb         # Random Forest and ensemble methods
-│   ├── svm_and_naive_bayes.ipynb            # Support Vector Machines and Naive Bayes
-│   ├── clustering_analysis.ipynb            # K-Means and Gaussian Mixture Models
-│   ├── market_basket_analysis.ipynb         # Association rule mining (Apriori)
-│   └── recommender_systems.ipynb            # Collaborative filtering and NLP intro
-├── data/
-│   ├── sample_dataset.csv                   # Example dataset for activities
-│   ├── clustering_data.csv                  # Data used for clustering analysis
-│   └── market_basket_data.csv               # Data for market basket analysis
-├── visuals/
-│   ├── correlation_heatmap.png              # Visualization of variable correlations
-│   ├── knn_results.png                      # KNN performance plot
-│   └── decision_tree_example.png            # Decision tree visualization
-├── README.md                                # Project description
-└── syllabus/
-    └── CIS_9660_Syllabus.pdf                # Full course syllabus
+Data_Mining_Business_Analytics_CIS9660/
+├── Adaboost/
+│   └── exercises.ipynb                  # Exercises for AdaBoost
+├── Assignments/
+│   ├── Prada_Gioconda_Hw1.ipynb             # Assignment 1
+│   ├── Prada_Gioconda_Hw2.ipynb             # Assignment 2
+│   ├── Prada_Gioconda_Hw3.ipynb             # Assignment 3
+│   ├── Prada_Gioconda_Hw4.ipynb             # Assignment 4
+│   └──Prada_Gioconda_Hw5 .ipynb            # Multi-Algorithm 
+├── Logistic Regression/
+│   └── exercises.ipynb                  # Logistic Regression Exercises
+├── data_preparation/
+│   └── exercises.ipynb                  # Data Preparation Exercises
+├── decision_trees/
+│   └── exercises.ipynb                  # Decision Trees Exercises
+├── distance_algorithm/
+│   └── exercises.ipynb                  # Distance Algorithm Exercises
+├── exploratory_data_analysis/
+│   └── exercises.ipynb                  # Exploratory Data Analysis Exercises
+├── gaussian_mixture_models/
+│   └── exercises.ipynb                  # Gaussian Mixture Models Exercises
+├── kmeans/
+│   └── exercises.ipynb                  # K-Means Exercises
+├── lof/
+│   └── exercises.ipynb                  # Local Outlier Factor Exercises
+├── market_basket_analysis/
+│   └── exercises.ipynb                  # Market Basket Analysis Exercises
+├── naive_bayes/
+│   └── exercises.ipynb                  # Naive Bayes Exercises
+├── principal_component_analysis/
+│   └── exercises.ipynb                  # Principal Component Analysis Exercises
+├── random_forest/
+│   └── exercises.ipynb                  # Random Forest Exercises
+├── linear_regression/
+│   └── exercises.ipynb                  # Linear Regression Exercises
+├── support_vector_machines/
+│   └── exercises.ipynb                  # Support Vector Machines Exercises
+└── README.md                            # Project description
 ```
 
 ---
@@ -83,11 +97,11 @@ Data_Mining_Business_Analytics/
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/Data_Mining_Business_Analytics.git
+   git clone https://github.com/giocondaprada91/Data_Mining_Business_Analytics_CIS9660.git
    ```
 2. Navigate to the repository directory:
    ```bash
-   cd Data_Mining_Business_Analytics
+   cd Data_Mining_Business_Analytics_CIS9660
    ```
 3. Open the Jupyter notebooks in Google Colab or a local Jupyter environment.
 
